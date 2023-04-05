@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "testsample1": "npx nightwatch tests/sample1.js --config sample1.nightwatch.conf.js --env chrome",
+    "testsample2": "npx nightwatch tests/sample2.js --reporter html-reporter.js --parallel"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "nightwatch": "^2.0.10",
+    "nightwatch-html-reporter": "^2.0.6"
+  },
+  "devDependencies": {
+    "chromedriver": "101.0.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "geckodriver": "^3.0.1",
+    "prettier": "^2.6.1"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
